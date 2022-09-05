@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b3604c16-055c-4ffc-a223-acec9bb41c20" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/yun/ReferenceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/yun/core/SimpleClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/yun/juc/SemaphoreThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/yun/juc/TPSLimiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/yun/proxy/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/yun/proxy/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/yun/proxy/Elephant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/yun/proxy/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/yun/proxy/dynamicproxy/CglibProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/yun/proxy/dynamicproxy/CglibProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/yun/proxy/dynamicproxy/JDKProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/yun/proxy/dynamicproxy/JdkProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/yun/proxy/staticproxy/AnimalProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/yun/proxy/staticproxy/PersonProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/yun/proxy/staticproxy/StaticProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/yun/reflect/JDKProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/yun/reflect/JDKProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/yun/reflect/SayHello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/yun/threadlocal/MyThreadLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/yun/threadlocal/MyThreadLocal2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/yun/threadlocal/ThreadLocalNPE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/yun/threadlocal/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yun/juc/CountDownLatch1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yun/juc/CountDownLatch1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yun/proxy/Hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yun/proxy/HelloImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yun/proxy/JDKProxyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yun/proxy/MyInvocationHandler.java" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/opt/apache-maven-3.5.4" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="26imDuK4EOsonVVAf6R0pp4UnKL" />
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="F:/work/并发/玩转Java并发工具，精通JUC，成为并发多面手/concurrency_tools_practice" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ThreadLocalNPE">
+    <configuration name="CglibProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="yun.proxy.dynamicproxy.CglibProxyTest" />
+      <module name="my_collections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yun.proxy.dynamicproxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountDownLatch1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="yun.juc.CountDownLatch1" />
+      <module name="my_collections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yun.juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDKProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="yun.proxy.dynamicproxy.JDKProxyTest" />
+      <module name="my_collections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yun.proxy.dynamicproxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="yun.proxy.staticproxy.StaticProxyTest" />
+      <module name="my_collections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yun.proxy.dynamicproxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadLocalNPE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="yun.threadlocal.ThreadLocalNPE" />
+      <module name="my_collections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yun.threadlocal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="my_collections []" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.StaticProxyTest" />
+      <item itemvalue="Application.JDKProxyTest" />
+      <item itemvalue="Application.CglibProxyTest" />
+      <item itemvalue="Application.CountDownLatch1" />
+      <item itemvalue="Application.ThreadLocalNPE" />
+      <item itemvalue="Maven.my_collections []" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ThreadLocalNPE" />
+        <item itemvalue="Application.CountDownLatch1" />
+        <item itemvalue="Application.CglibProxyTest" />
+        <item itemvalue="Application.JDKProxyTest" />
+        <item itemvalue="Application.StaticProxyTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3604c16-055c-4ffc-a223-acec9bb41c20" name="Default Changelist" comment="" />
+      <created>1647914664597</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647914664597</updated>
+      <workItem from="1647914667586" duration="9392000" />
+      <workItem from="1652148842026" duration="3098000" />
+      <workItem from="1662083386812" duration="29629000" />
+      <workItem from="1662343842356" duration="3976000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/myjava/JDK/src.zip!/java/lang/ThreadLocal.java</url>
+          <line>159</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/myjava/JDK/src.zip!/java/lang/ThreadLocal.java</url>
+          <line>160</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/myjava/JDK/src.zip!/java/lang/ThreadLocal.java</url>
+          <line>232</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/myjava/JDK/src.zip!/java/lang/ThreadLocal.java</url>
+          <line>179</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/myjava/JDK/src.zip!/java/lang/ThreadLocal.java</url>
+          <line>180</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/yun/threadlocal/ThreadLocalNPE.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/myjava/JDK/src.zip!/java/lang/ThreadLocal.java</url>
+          <line>140</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://D:/myjava/JDK/src.zip!/java/lang/ThreadLocal.java</url>
+          <line>147</line>
+          <properties class="java.lang.ThreadLocal" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/yun/threadlocal/ThreadLocalNPE.java</url>
+          <line>9</line>
+          <properties field="context" class="yun.threadlocal.ThreadLocalNPE" />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

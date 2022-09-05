@@ -3,6 +3,7 @@ package yun.juc;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Author: yunCrush
@@ -18,10 +19,12 @@ public class CountDownLatch1 {
 			t.start();
 		}
 		try {
+			countDownLatch.countDown();
 			countDownLatch.await();
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
+
 		System.out.println("所有任务完成");
 	}
 }
@@ -31,7 +34,8 @@ class MyThread implements  Runnable{
 	public void run() {
 		try {
 			log.info("当前线程正在执行：{}", Thread.currentThread().getName());
-			Thread.sleep(1000);
+			// Thread.sleep(1000);
+			TimeUnit.MILLISECONDS.sleep(1000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
