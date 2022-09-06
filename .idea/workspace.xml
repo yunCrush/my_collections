@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3604c16-055c-4ffc-a223-acec9bb41c20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/yun/ReferenceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/yun/core/SimpleClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/yun/juc/SemaphoreThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/yun/juc/TPSLimiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/yun/proxy/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/yun/proxy/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/yun/proxy/Elephant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/yun/proxy/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/yun/proxy/dynamicproxy/CglibProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/yun/proxy/dynamicproxy/CglibProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/yun/proxy/dynamicproxy/JDKProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/yun/proxy/dynamicproxy/JdkProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/yun/proxy/staticproxy/AnimalProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/yun/proxy/staticproxy/PersonProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/yun/proxy/staticproxy/StaticProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/yun/reflect/JDKProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/yun/reflect/JDKProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/yun/reflect/SayHello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/yun/threadlocal/MyThreadLocal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/yun/threadlocal/MyThreadLocal2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/yun/threadlocal/ThreadLocalNPE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/yun/threadlocal/UserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/yun/juc/CountDownLatch1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yun/juc/CountDownLatch1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/yun/proxy/Hello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/yun/proxy/HelloImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/yun/proxy/JDKProxyTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/yun/proxy/MyInvocationHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yun/threadlocal/MyThreadLocal2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yun/threadlocal/MyThreadLocal2.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -205,7 +178,7 @@
       <workItem from="1647914667586" duration="9392000" />
       <workItem from="1652148842026" duration="3098000" />
       <workItem from="1662083386812" duration="29629000" />
-      <workItem from="1662343842356" duration="3976000" />
+      <workItem from="1662343842356" duration="13523000" />
     </task>
     <servers />
   </component>
@@ -230,11 +203,6 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://D:/myjava/JDK/src.zip!/java/lang/ThreadLocal.java</url>
-          <line>159</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/myjava/JDK/src.zip!/java/lang/ThreadLocal.java</url>
           <line>160</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -249,11 +217,6 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/myjava/JDK/src.zip!/java/lang/ThreadLocal.java</url>
-          <line>180</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/yun/threadlocal/ThreadLocalNPE.java</url>
           <line>22</line>
           <option name="timeStamp" value="7" />
@@ -263,6 +226,26 @@
           <line>140</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/myjava/JDK/src.zip!/java/lang/ThreadLocal.java</url>
+          <line>243</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/yun/threadlocal/ThreadLocalNPE.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/yun/threadlocal/ThreadLocalNPE.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/myjava/JDK/src.zip!/java/lang/ThreadLocal.java</url>
+          <line>169</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>jar://D:/myjava/JDK/src.zip!/java/lang/ThreadLocal.java</url>
           <line>147</line>
@@ -270,12 +253,6 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/main/java/yun/threadlocal/ThreadLocalNPE.java</url>
-          <line>9</line>
-          <properties field="context" class="yun.threadlocal.ThreadLocalNPE" />
-          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -7,7 +7,7 @@ package yun.threadlocal;
  * 解决userMap的多线程问题
  * 可以在方法间，也可以在class间，同一个线程即可
  */
-public class MyThreadLocal2 {
+public class MyThreadLocal2  {
     public static ThreadLocal<UserInfo> userInfoContext = new ThreadLocal<>();
 
     public static void main(String[] args) {
